@@ -1,5 +1,6 @@
-package leetcode.easy;
+package leetcode.easy.ut;
 
+import leetcode.easy.RemoveElement;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
