@@ -1,6 +1,8 @@
 package leetcode.easy.ut;
 
 import leetcode.easy.RomanToInteger;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,22 +12,43 @@ class RomanToIntegerTest {
 
     RomanToInteger romanToInteger = new RomanToInteger();
 
-    @Test
-    void example01() {
-        assertEquals(3, romanToInteger.romanToInt("III"));
-        assertEquals(3, romanToInteger.romanToIntHashMap("III"));
+
+    @Nested
+    @DisplayName("Hash Map")
+    class HashMapTest {
+        @Test
+        void example01() {
+            assertEquals(3, romanToInteger.romanToIntHashMap("III"));
+        }
+
+        @Test
+        void example02() {
+            assertEquals(58, romanToInteger.romanToIntHashMap("LVIII"));
+        }
+
+        @Test
+        void example03() {
+            assertEquals(1994, romanToInteger.romanToIntHashMap("MCMXCIV"));
+        }
     }
 
-    @Test
-    void example02() {
-        assertEquals(58, romanToInteger.romanToInt("LVIII"));
-        assertEquals(58, romanToInteger.romanToIntHashMap("LVIII"));
-    }
+    @Nested
+    @DisplayName("Custom Method")
+    class CustomMethodTest {
+        @Test
+        void example01() {
+            assertEquals(3, romanToInteger.romanToInt("III"));
+        }
 
-    @Test
-    void example03() {
-        assertEquals(1994, romanToInteger.romanToInt("MCMXCIV"));
-        assertEquals(1994, romanToInteger.romanToIntHashMap("MCMXCIV"));
+        @Test
+        void example02() {
+            assertEquals(58, romanToInteger.romanToInt("LVIII"));
+        }
+
+        @Test
+        void example03() {
+            assertEquals(1994, romanToInteger.romanToInt("MCMXCIV"));
+        }
     }
 
     @Test
