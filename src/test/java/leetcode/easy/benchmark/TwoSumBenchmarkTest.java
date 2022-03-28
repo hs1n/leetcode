@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.State;
 
 
 @State(Scope.Thread)
-public class TwoSumBenchmark extends BenchmarkTest {
+public class TwoSumBenchmarkTest extends BenchmarkTest {
     private static final TwoSum twoSum = new TwoSum();
 
     @Benchmark

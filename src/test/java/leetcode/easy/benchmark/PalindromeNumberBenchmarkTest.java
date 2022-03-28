@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.State;
 
 
 @State(Scope.Thread)
-public class PalindromeNumberBenchmark extends BenchmarkTest {
+public class PalindromeNumberBenchmarkTest extends BenchmarkTest {
     private static final PalindromeNumber palindromeNumber = new PalindromeNumber();
 
     @Benchmark
