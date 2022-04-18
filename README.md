@@ -7,3 +7,4 @@
 * 0020 - [Valid Parentheses](src/main/java/leetcode/easy/ValidParentheses.java) - <span style="color:green">Easy</span>
 * 0021 - [Merge Two Sorted Lists](src/main/java/leetcode/easy/MergeTwoSortedLists.java) - <span style="color:green">Easy</span>
 * 0027 - [Remove Element](src/main/java/leetcode/easy/RemoveElement.java) - <span style="color:green">Easy</span>
+* 1046 - [Last Stone Weight](src/main/java/leetcode/easy/LastStoneWeight.java) - <span style="color:green">Easy</span>
