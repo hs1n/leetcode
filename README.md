@@ -8,5 +8,6 @@
 * 0021 - [Merge Two Sorted Lists](src/main/java/leetcode/easy/MergeTwoSortedLists.java) - <span style="color:green">Easy</span>
 * 0027 - [Remove Element](src/main/java/leetcode/easy/RemoveElement.java) - <span style="color:green">Easy</span>
 * 0035 - [Search Insert Position](src/main/java/leetcode/easy/SearchInsertPosition.java) - <span style="color:green">Easy</span>
+* 0053 - [Maximum SubArray](src/main/java/leetcode/easy/MaximumSubArray.java) - <span style="color:green">Easy</span>
 * 0217 - [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java) - <span style="color:green">Easy</span>
 * 1046 - [Last Stone Weight](src/main/java/leetcode/easy/LastStoneWeight.java) - <span style="color:green">Easy</span>
