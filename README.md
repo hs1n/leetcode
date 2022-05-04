@@ -12,4 +12,5 @@
 * 0088 - [Merge Sorted Array](src/main/java/leetcode/easy/MergeSortedArray.java) - <span style="color:green">Easy</span>
 * 0217 - [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java) - <span style="color:green">Easy</span>
 * 0350 - [Intersection of Two Arrays II](src/main/java/leetcode/easy/IntersectionOfTwoArrays2.java) - <span style="color:green">Easy</span>
+* 0704 - [Binary Search](src/main/java/leetcode/easy/BinarySearch.java) - <span style="color:green">Easy</span>
 * 1046 - [Last Stone Weight](src/main/java/leetcode/easy/LastStoneWeight.java) - <span style="color:green">Easy</span>
