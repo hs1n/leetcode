@@ -10,6 +10,7 @@
 * 0035 - [Search Insert Position](src/main/java/leetcode/easy/SearchInsertPosition.java) - <span style="color:green">Easy</span>
 * 0053 - [Maximum SubArray](src/main/java/leetcode/easy/MaximumSubArray.java) - <span style="color:green">Easy</span>
 * 0088 - [Merge Sorted Array](src/main/java/leetcode/easy/MergeSortedArray.java) - <span style="color:green">Easy</span>
+* 0189 - [Rotate Array](src/main/java/leetcode/easy/RotateArray.java) - <span style="color:green">Easy</span>
 * 0217 - [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java) - <span style="color:green">Easy</span>
 * 0350 - [Intersection of Two Arrays II](src/main/java/leetcode/easy/IntersectionOfTwoArrays2.java) - <span style="color:green">Easy</span>
 * 0704 - [Binary Search](src/main/java/leetcode/easy/BinarySearch.java) - <span style="color:green">Easy</span>
