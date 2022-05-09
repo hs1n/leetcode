@@ -12,9 +12,10 @@
 | 0035 | [Search Insert Position](src/main/java/leetcode/easy/SearchInsertPosition.java)               |    Easy    |
 | 0053 | [Maximum SubArray](src/main/java/leetcode/easy/MaximumSubArray.java)                          |    Easy    |
 | 0088 | [Merge Sorted Array](src/main/java/leetcode/easy/MergeSortedArray.java)                       |    Easy    |
+| 0121 | [Best Time to Buy and Sell Stock](src/main/java/leetcode/easy/BestTimeToBuyAndSellStock.java) |    Easy    |
 | 0189 | [Rotate Array](src/main/java/leetcode/easy/RotateArray.java)                                  |   Medium   |
 | 0217 | [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java)                      |    Easy    |
-| 0121 | [Best Time to Buy and Sell Stock](src/main/java/leetcode/easy/BestTimeToBuyAndSellStock.java) |    Easy    |
+| 0283 | [Move Zeroes](src/main/java/leetcode/easy/MoveZeroes.java)                                    |    Easy    |
 | 0350 | [Intersection of Two Arrays II](src/main/java/leetcode/easy/IntersectionOfTwoArrays2.java)    |    Easy    |
 | 0566 | [Reshape the Matrix](src/main/java/leetcode/easy/ReshapeTheMatrix.java)                       |    Easy    |
 | 0704 | [Binary Search](src/main/java/leetcode/easy/BinarySearch.java)                                |    Easy    |            
