@@ -1,6 +1,6 @@
-package leetcode.easy;
+package leetcode.medium;
 
-import leetcode.easy.RotateArray;
+import leetcode.medium.RotateArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

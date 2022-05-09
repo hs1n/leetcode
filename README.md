@@ -14,7 +14,7 @@
 | 0088 | [Merge Sorted Array](src/main/java/leetcode/easy/MergeSortedArray.java)                       |    Easy    |
 | 0118 | [Pascal's Triangle](src/main/java/leetcode/easy/PascalsTriangle.java)                         |    Easy    |
 | 0121 | [Best Time to Buy and Sell Stock](src/main/java/leetcode/easy/BestTimeToBuyAndSellStock.java) |    Easy    |
-| 0189 | [Rotate Array](src/main/java/leetcode/easy/RotateArray.java)                                  |   Medium   |
+| 0189 | [Rotate Array](src/main/java/leetcode/medium/RotateArray.java)                                |   Medium   |
 | 0217 | [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java)                      |    Easy    |
 | 0283 | [Move Zeroes](src/main/java/leetcode/easy/MoveZeroes.java)                                    |    Easy    |
 | 0350 | [Intersection of Two Arrays II](src/main/java/leetcode/easy/IntersectionOfTwoArrays2.java)    |    Easy    |
