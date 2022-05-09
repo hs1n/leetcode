@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @see <a href="https://leetcode.com/problems/pascals-triangle/submissions/">118. Pascal's Triangle</a>
+ * @see <a href="https://leetcode.com/problems/pascals-triangle/">118. Pascal's Triangle</a>
  */
 public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {

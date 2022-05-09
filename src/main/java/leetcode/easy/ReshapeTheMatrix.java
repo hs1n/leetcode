@@ -2,6 +2,9 @@ package leetcode.easy;
 
 import java.util.Arrays;
 
+/**
+ * @see <a href="https://leetcode.com/problems/reshape-the-matrix/">566. Reshape the Matrix</a>
+ */
 public class ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] matrix, int newRow, int newCol) {
         int origCol = matrix[0].length, origRow = matrix.length;
