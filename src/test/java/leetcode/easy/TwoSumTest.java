@@ -1,4 +1,4 @@
-package leetcode.easy.ut;
+package leetcode.easy;
 
 import leetcode.easy.TwoSum;
 import org.junit.jupiter.api.*;

@@ -1,4 +1,4 @@
-package leetcode.easy.ut;
+package leetcode.easy;
 
 import leetcode.easy.PalindromeNumber;
 import org.junit.jupiter.api.Test;
@@ -11,31 +11,31 @@ class PalindromeNumberTest {
 
     @Test
     void example01() {
-        assertEquals(true, palindromeNumber.isPalindrome(121));
+        assertTrue(palindromeNumber.isPalindrome(121));
     }
 
     @Test
     void example02() {
-        assertEquals(false, palindromeNumber.isPalindrome(-121));
+        assertFalse(palindromeNumber.isPalindrome(-121));
     }
 
     @Test
     void example03() {
-        assertEquals(false, palindromeNumber.isPalindrome(10));
+        assertFalse(palindromeNumber.isPalindrome(10));
     }
 
     @Test
     void example04() {
-        assertEquals(false, palindromeNumber.isPalindrome(123));
+        assertFalse(palindromeNumber.isPalindrome(123));
     }
 
     @Test
     void example05() {
-        assertEquals(true, palindromeNumber.isPalindrome(1221));
+        assertTrue(palindromeNumber.isPalindrome(1221));
     }
 
     @Test
     void example06() {
-        assertEquals(false, palindromeNumber.isPalindrome(2147483647));
+        assertFalse(palindromeNumber.isPalindrome(2147483647));
     }
 }

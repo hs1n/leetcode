@@ -1,4 +1,4 @@
-package leetcode.easy.ut;
+package leetcode.easy;
 
 import leetcode.easy.LastStoneWeight;
 import org.junit.jupiter.api.Test;
