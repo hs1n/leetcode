@@ -16,6 +16,7 @@
 | 0217 | [Contains Duplicate](src/main/java/leetcode/easy/ContainsDuplicate.java)                      |    Easy    |
 | 0121 | [Best Time to Buy and Sell Stock](src/main/java/leetcode/easy/BestTimeToBuyAndSellStock.java) |    Easy    |
 | 0350 | [Intersection of Two Arrays II](src/main/java/leetcode/easy/IntersectionOfTwoArrays2.java)    |    Easy    |
+| 0566 | [Reshape the Matrix](src/main/java/leetcode/easy/ReshapeTheMatrix.java)                       |    Easy    |
 | 0704 | [Binary Search](src/main/java/leetcode/easy/BinarySearch.java)                                |    Easy    |            
 | 0977 | [Squares of a Sorted Array](src/main/java/leetcode/easy/SquaresOfASortedArray.java)           |    Easy    |            
 | 1046 | [Last Stone Weight](src/main/java/leetcode/easy/LastStoneWeight.java)                         |    Easy    |                          
