@@ -1,7 +1,5 @@
 package leetcode.medium;
 
-
-
 /**
  * @see <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">167. Two Sum II - Input Array Is Sorted</a>
  */
