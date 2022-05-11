@@ -1,6 +1,5 @@
 package leetcode.medium;
 
-import leetcode.medium.RotateArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

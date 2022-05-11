@@ -1,6 +1,5 @@
 package leetcode.easy;
 
-import leetcode.easy.PascalsTriangle;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

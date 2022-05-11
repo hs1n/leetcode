@@ -1,7 +1,5 @@
 package leetcode.easy;
 
-import java.util.HashMap;
-
 /**
  * @see <a href="https://leetcode.com/problems/remove-element/">27. Remove Element</a>
  */

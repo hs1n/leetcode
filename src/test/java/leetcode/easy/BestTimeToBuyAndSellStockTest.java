@@ -1,9 +1,8 @@
 package leetcode.easy;
 
-import leetcode.easy.BestTimeToBuyAndSellStock;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BestTimeToBuyAndSellStockTest {
     BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock = new BestTimeToBuyAndSellStock();

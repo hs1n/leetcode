@@ -1,8 +1,5 @@
 package leetcode.easy;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 /**
  * @see <a href="https://leetcode.com/problems/maximum-subarray/">53. Maximum Subarray</a>
  */

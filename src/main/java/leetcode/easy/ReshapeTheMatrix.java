@@ -1,7 +1,5 @@
 package leetcode.easy;
 
-import java.util.Arrays;
-
 /**
  * @see <a href="https://leetcode.com/problems/reshape-the-matrix/">566. Reshape the Matrix</a>
  */

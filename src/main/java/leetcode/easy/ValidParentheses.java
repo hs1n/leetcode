@@ -1,9 +1,10 @@
 package leetcode.easy;
 
-import java.util.*;
+
+import java.util.Stack;
 
 /**
- * @see <a href='https://leetcode.com/problems/valid-parentheses/'>20. Valid Parentheses</a>
+ * @see <a href="https://leetcode.com/problems/valid-parentheses/">20. Valid Parentheses</a>
  */
 public class ValidParentheses {
     public boolean isValid(String s) {

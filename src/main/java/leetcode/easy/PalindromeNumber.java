@@ -1,8 +1,5 @@
 package leetcode.easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
  * @see <a href="https://leetcode.com/problems/palindrome-number/">9. Palindrome Number</a>
  */

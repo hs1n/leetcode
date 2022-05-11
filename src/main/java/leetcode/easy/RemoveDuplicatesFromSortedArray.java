@@ -1,9 +1,7 @@
 package leetcode.easy;
 
-import java.util.Arrays;
-
 /**
- * @see <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/'>26. Remove Duplicates from Sorted Array</a>
+ * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">26. Remove Duplicates from Sorted Array</a>
  */
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {

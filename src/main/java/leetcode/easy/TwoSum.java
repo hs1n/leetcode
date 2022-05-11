@@ -1,6 +1,6 @@
 package leetcode.easy;
 
-import java.util.*;
+import java.util.HashMap;
 
 /**
  * @see <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
@@ -18,7 +18,7 @@ public class TwoSum {
     }
 
     public int[] twoSumByMap(int[] nums, int target) {
-        HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
 
         for (int index = 0; index < nums.length; index++) {
             if (hashMap.containsKey(nums[index])) {

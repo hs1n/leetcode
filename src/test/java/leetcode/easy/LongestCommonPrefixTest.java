@@ -1,6 +1,5 @@
 package leetcode.easy;
 
-import leetcode.easy.LongestCommonPrefix;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
