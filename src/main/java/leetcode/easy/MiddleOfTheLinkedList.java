@@ -1,5 +1,7 @@
 package leetcode.easy;
 
+import leetcode.util.ListNode;
+
 /**
  * @see <a href="https://leetcode.com/problems/middle-of-the-linked-list/">876. Middle of the Linked List</a>
  */
@@ -14,22 +16,5 @@ public class MiddleOfTheLinkedList {
             if (fast.next != null) fast = fast.next;
         }
         return slow;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
