@@ -13,7 +13,5 @@ public class MoveZeroes {
             if (n != 0) nums[pointer++] = n;
         }
         while (pointer < nums.length) nums[pointer++] = 0;
-
-        System.out.println(Arrays.toString(nums));
     }
 }
