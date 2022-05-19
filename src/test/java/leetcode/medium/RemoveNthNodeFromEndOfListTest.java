@@ -12,12 +12,12 @@ class RemoveNthNodeFromEndOfListTest {
     void example01() {
         ListNode input = new ListNode(1,new ListNode(2,new ListNode(3,new ListNode(4,new ListNode(5)))));
         ListNode expected = new ListNode(1,new ListNode(2,new ListNode(3,new ListNode(5))));
-        assertEquals(testClass.removeNthFromEnd(input, 2).toString(), expected.toString());
+        assertEquals(expected.toString(), testClass.removeNthFromEnd(input, 2).toString());
     }
     @Test
     void example02() {
         ListNode input = new ListNode(1,new ListNode(2));
         ListNode expected = new ListNode(1);
-        assertEquals(testClass.removeNthFromEnd(input, 1).toString(), expected.toString());
+        assertEquals(expected.toString(), testClass.removeNthFromEnd(input, 1).toString());
     }
 }

@@ -9,15 +9,16 @@ class BestTimeToBuyAndSellStockTest {
 
     @Test
     void example01() {
-        assertEquals(bestTimeToBuyAndSellStock.maxProfit(new int[]{7, 1, 5, 3, 6, 4}), 5);
+        assertEquals(5, bestTimeToBuyAndSellStock.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
     }
 
     @Test
     void example02() {
-        assertEquals(bestTimeToBuyAndSellStock.maxProfit(new int[]{7, 6, 4, 3, 1}), 0);
+        assertEquals(0, bestTimeToBuyAndSellStock.maxProfit(new int[]{7, 6, 4, 3, 1}));
     }
+
     @Test
     void custom01() {
-        assertEquals(bestTimeToBuyAndSellStock.maxProfit(new int[]{1, 2}), 1);
+        assertEquals(1, bestTimeToBuyAndSellStock.maxProfit(new int[]{1, 2}));
     }
 }

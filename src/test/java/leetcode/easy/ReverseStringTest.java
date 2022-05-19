@@ -12,18 +12,19 @@ class ReverseStringTest {
 
     @Test
     void example01() {
-        char[] input = new char[]{'h', 'e', 'l', 'l', 'o'};
+        char[] actual = new char[]{'h', 'e', 'l', 'l', 'o'};
         char[] expected = new char[]{'o', 'l', 'l', 'e', 'h'};
 
-        reverseString.reverseString(input);
-        assertArrayEquals(input, expected);
+        reverseString.reverseString(actual);
+        assertArrayEquals(expected, actual);
     }
+
     @Test
     void example02() {
-        char[] input = new char[]{'H','a','n','n','a','h'};
-        char[] expected = new char[]{'h','a','n','n','a','H'};
+        char[] actual = new char[]{'H', 'a', 'n', 'n', 'a', 'h'};
+        char[] expected = new char[]{'h', 'a', 'n', 'n', 'a', 'H'};
 
-        reverseString.reverseString(input);
-        assertArrayEquals(input, expected);
+        reverseString.reverseString(actual);
+        assertArrayEquals(expected, actual);
     }
 }

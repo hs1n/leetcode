@@ -13,7 +13,7 @@ class AddTwoNumbersTest {
         ListNode input1 = new ListNode(2, new ListNode(4, new ListNode(3)));
         ListNode input2 = new ListNode(5, new ListNode(6, new ListNode(4)));
         ListNode expected = new ListNode(7, new ListNode(0, new ListNode(8)));
-        assertEquals(testClass.addTwoNumbers(input1, input2).toString(), expected.toString());
+        assertEquals(expected.toString(), testClass.addTwoNumbers(input1, input2).toString());
     }
 
     @Test
@@ -21,6 +21,6 @@ class AddTwoNumbersTest {
         ListNode input1 = new ListNode(0);
         ListNode input2 = new ListNode(0);
         ListNode expected = new ListNode(0);
-        assertEquals(testClass.addTwoNumbers(input1, input2).toString(), expected.toString());
+        assertEquals(expected.toString(), testClass.addTwoNumbers(input1, input2).toString());
     }
 }

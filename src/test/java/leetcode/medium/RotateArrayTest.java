@@ -8,28 +8,28 @@ class RotateArrayTest {
     RotateArray rotateArray = new RotateArray();
     @Test
     void example01() {
-        int[] input = new int[]{1,2,3,4,5,6,7};
-        rotateArray.rotate(input, 3);
-        assertArrayEquals(input, new int[]{5,6,7,1,2,3,4});
+        int[] expected = new int[]{1,2,3,4,5,6,7};
+        rotateArray.rotate(expected, 3);
+        assertArrayEquals(new int[]{5,6,7,1,2,3,4}, expected);
     }
 
     @Test
     void example02() {
-        int[] input = new int[]{-1,-100,3,99};
-        rotateArray.rotate(input, 2);
-        assertArrayEquals(input, new int[]{3,99,-1,-100});
+        int[] expected = new int[]{-1,-100,3,99};
+        rotateArray.rotate(expected, 2);
+        assertArrayEquals(new int[]{3,99,-1,-100}, expected);
     }
 
     @Test
     void custom01() {
-        int[] input = new int[]{-1};
-        rotateArray.rotate(input, 2);
-        assertArrayEquals(input, new int[]{-1});
+        int[] expected = new int[]{-1};
+        rotateArray.rotate(expected, 2);
+        assertArrayEquals(new int[]{-1}, expected);
     }
     @Test
     void custom02() {
-        int[] input = new int[]{1, 2};
-        rotateArray.rotate(input, 3);
-        assertArrayEquals(input, new int[]{2, 1});
+        int[] expected = new int[]{1, 2};
+        rotateArray.rotate(expected, 3);
+        assertArrayEquals(new int[]{2, 1}, expected);
     }
 }

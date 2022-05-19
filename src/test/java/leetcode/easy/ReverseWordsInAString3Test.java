@@ -10,14 +10,14 @@ class ReverseWordsInAString3Test {
     @Test
     void example01() {
         String input = "Let's take LeetCode contest", expected = "s'teL ekat edoCteeL tsetnoc";
-        assertEquals(reverseWordsInAString3.reverseWordsByStringBuilder(input), expected);
-        assertEquals(reverseWordsInAString3.reverseWordsByPrimitiveDataType(input), expected);
+        assertEquals(expected, reverseWordsInAString3.reverseWordsByStringBuilder(input));
+        assertEquals(expected, reverseWordsInAString3.reverseWordsByPrimitiveDataType(input));
     }
 
     @Test
     void example02() {
         String input = "God Ding", expected = "doG gniD";
-        assertEquals(reverseWordsInAString3.reverseWordsByStringBuilder(input), expected);
-        assertEquals(reverseWordsInAString3.reverseWordsByPrimitiveDataType(input), expected);
+        assertEquals(expected, reverseWordsInAString3.reverseWordsByStringBuilder(input));
+        assertEquals(expected, reverseWordsInAString3.reverseWordsByPrimitiveDataType(input));
     }
 }

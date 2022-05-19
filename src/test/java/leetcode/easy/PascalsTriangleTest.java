@@ -15,21 +15,21 @@ class PascalsTriangleTest {
     @Test
     void example01() {
 
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(Collections.singletonList(1));
-        result.add(Arrays.asList(1, 1));
-        result.add(Arrays.asList(1, 2, 1));
-        result.add(Arrays.asList(1, 3, 3, 1));
-        result.add(Arrays.asList(1, 4, 6, 4, 1));
+        List<List<Integer>> expected = new ArrayList<>();
+        expected.add(Collections.singletonList(1));
+        expected.add(Arrays.asList(1, 1));
+        expected.add(Arrays.asList(1, 2, 1));
+        expected.add(Arrays.asList(1, 3, 3, 1));
+        expected.add(Arrays.asList(1, 4, 6, 4, 1));
 
-        assertEquals(pascalsTriangle.generate(5), result);
+        assertEquals(pascalsTriangle.generate(5), expected);
     }
     @Test
     void example02() {
 
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(Collections.singletonList(1));
+        List<List<Integer>> expected = new ArrayList<>();
+        expected.add(Collections.singletonList(1));
 
-        assertEquals(pascalsTriangle.generate(1), result);
+        assertEquals(pascalsTriangle.generate(1), expected);
     }
 }

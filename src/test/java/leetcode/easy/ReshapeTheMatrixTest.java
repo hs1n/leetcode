@@ -9,16 +9,16 @@ class ReshapeTheMatrixTest {
 
     @Test
     void example01() {
-        int[][] input = {{1, 2}, {3, 4}};
-        int[][] result = {{1, 2, 3, 4}};
-        assertArrayEquals(reshapeTheMatrix.matrixReshape(input, 1, 4), result);
+        int[][] actual = {{1, 2}, {3, 4}};
+        int[][] expected = {{1, 2, 3, 4}};
+        assertArrayEquals(expected, reshapeTheMatrix.matrixReshape(actual, 1, 4));
     }
 
 
     @Test
     void example02() {
-        int[][] input = {{1, 2}, {3, 4}};
-        int[][] result = {{1, 2}, {3, 4}};
-        assertArrayEquals(reshapeTheMatrix.matrixReshape(input, 2, 4), result);
+        int[][] actual = {{1, 2}, {3, 4}};
+        int[][] expected = {{1, 2}, {3, 4}};
+        assertArrayEquals(expected, reshapeTheMatrix.matrixReshape(actual, 2, 4));
     }
 }
