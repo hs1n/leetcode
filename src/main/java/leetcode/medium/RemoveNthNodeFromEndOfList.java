@@ -20,6 +20,7 @@ public class RemoveNthNodeFromEndOfList {
                 // If count = N i.e. delete the head node
                 if (i == n - 1)
                     head = head.next;
+
                 return head;
             }
             fast = fast.next;

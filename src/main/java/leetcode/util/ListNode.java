@@ -7,7 +7,7 @@ public class ListNode {
     public ListNode next;
 
     public ListNode() {
-        this.val = -1;
+        this.val = Integer.MIN_VALUE;
     }
 
     public ListNode(int val) {
@@ -24,11 +24,11 @@ public class ListNode {
         StringBuilder sb = new StringBuilder();
         String SEPARATOR = ",";
         sb.append("[");
-        if (this.val != -1)
+        if (this.val != Integer.MIN_VALUE)
             sb.append(this.val);
-        while (next != null) {
+        while (this.next != null) {
             sb.append(SEPARATOR).append(next.val);
-            next = next.next;
+            this.next = this.next.next;
         }
         sb.append("]");
 
