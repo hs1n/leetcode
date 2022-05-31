@@ -13,6 +13,7 @@
 | 0020 | [Valid Parentheses](src/main/java/leetcode/easy/ValidParentheses.java)                                                          |    Easy    |
 | 0021 | [Merge Two Sorted Lists](src/main/java/leetcode/easy/MergeTwoSortedLists.java)                                                  |    Easy    |
 | 0027 | [Remove Element](src/main/java/leetcode/easy/RemoveElement.java)                                                                |    Easy    |
+| 0028 | [Implement strStr()](src/main/java/leetcode/easy/ImplementStrStr.java)                                                          |    Easy    |
 | 0035 | [Search Insert Position](src/main/java/leetcode/easy/SearchInsertPosition.java)                                                 |    Easy    |
 | 0036 | [Valid Sudoku](src/main/java/leetcode/medium/ValidSudoku.java)                                                                  |   Medium   |
 | 0053 | [Maximum SubArray](src/main/java/leetcode/easy/MaximumSubArray.java)                                                            |    Easy    |
