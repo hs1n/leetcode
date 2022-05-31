@@ -5,6 +5,7 @@
 | 0001 | [Two Sum](src/main/java/leetcode/easy/TwoSum.java)                                                                              |    Easy    |
 | 0002 | [Add Two Numbers](src/main/java/leetcode/medium/AddTwoNumbers.java)                                                             |   Medium   |
 | 0003 | [Longest Substring Without Repeating Characters](src/main/java/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java) |   Medium   |
+| 0005 | [Longest Palindromic Substring](src/main/java/leetcode/medium/LongestPalindromicSubstring.java)                                 |   Medium   |
 | 0009 | [Palindrome Number](src/main/java/leetcode/easy/PalindromeNumber.java)                                                          |    Easy    |
 | 0013 | [Roman to Integer](src/main/java/leetcode/easy/RomanToInteger.java)                                                             |    Easy    |
 | 0014 | [Longest Common Prefix](src/main/java/leetcode/easy/LongestCommonPrefix.java)                                                   |    Easy    |
