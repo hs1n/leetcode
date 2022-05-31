@@ -4,7 +4,6 @@ package leetcode.medium;
  * @see <a href="https://leetcode.com/problems/longest-palindromic-substring/">5. Longest Palindromic Substring</a>
  */
 public class LongestPalindromicSubstring {
-
     public String longestPalindrome(String s) {
         int start = 0, pLength = 0;
 
