@@ -1,7 +1,8 @@
 package leetcode.util;
 
-import java.util.List;
-
+/**
+ * @author hsin
+ */
 public class ListNode {
     public int val;
     public ListNode next;
@@ -22,12 +23,13 @@ public class ListNode {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        String SEPARATOR = ",";
+        String separator = ",";
         sb.append("[");
-        if (this.val != Integer.MIN_VALUE)
+        if (this.val != Integer.MIN_VALUE) {
             sb.append(this.val);
+        }
         while (this.next != null) {
-            sb.append(SEPARATOR).append(next.val);
+            sb.append(separator).append(next.val);
             this.next = this.next.next;
         }
         sb.append("]");

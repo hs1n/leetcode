@@ -1,14 +1,14 @@
 package leetcode.medium;
 
-import java.sql.Array;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/valid-sudoku/">36. Valid Sudoku</a>
  */
-
 public class ValidSudoku {
     private static final int BOARD_WIDTH = 9;
 
@@ -17,8 +17,9 @@ public class ValidSudoku {
         Map<Integer, Set<Integer>> columnMap = new HashMap<>(9);
         Map<Integer, Set<Integer>> squareMap = new HashMap<>(9);
 
-        if (board.length != BOARD_WIDTH || board[0].length != BOARD_WIDTH)
+        if (board.length != BOARD_WIDTH || board[0].length != BOARD_WIDTH) {
             throw new IllegalArgumentException("Board size not valid");
+        }
 
         for (int i = 0; i < BOARD_WIDTH; i++) {
             for (int j = 0; j < BOARD_WIDTH; j++) {
@@ -31,8 +32,9 @@ public class ValidSudoku {
 
                     int n = board[i][j] - '0';
 
-                    if (!rowMap.get(i).add(n) || !columnMap.get(j).add(n) || !squareMap.get(s).add(n))
+                    if (!rowMap.get(i).add(n) || !columnMap.get(j).add(n) || !squareMap.get(s).add(n)) {
                         return false;
+                    }
                 }
             }
         }

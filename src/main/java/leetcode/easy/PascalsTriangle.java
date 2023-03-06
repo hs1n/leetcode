@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/pascals-triangle/">118. Pascal's Triangle</a>
  */
 public class PascalsTriangle {

@@ -1,12 +1,14 @@
 package leetcode.easy;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/search-insert-position/">35. Search Insert Position</a>
  */
 
 public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
-        int minIndex = 0, maxIndex = nums.length - 1;
+        int minIndex = 0;
+        int maxIndex = nums.length - 1;
 
         while (minIndex <= maxIndex) {
             int midIndex = (minIndex + maxIndex) / 2;

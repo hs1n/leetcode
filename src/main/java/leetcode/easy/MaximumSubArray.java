@@ -1,6 +1,7 @@
 package leetcode.easy;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/maximum-subarray/">53. Maximum Subarray</a>
  */
 
@@ -14,10 +15,12 @@ public class MaximumSubArray {
             int max = Integer.MIN_VALUE;
             for (int num : nums) {
                 current += num;
-                if (current > max)
+                if (current > max) {
                     max = current;
-                if (current < 0)
+                }
+                if (current < 0) {
                     current = 0;
+                }
             }
             return max;
         }

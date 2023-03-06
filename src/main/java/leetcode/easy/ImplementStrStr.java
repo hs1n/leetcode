@@ -1,12 +1,17 @@
 package leetcode.easy;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/implement-strstr/">28. Implement strStr()</a>
  */
 public class ImplementStrStr {
     public int strStr(String haystack, String needle) {
-        if (needle.length() == 0) return 0;
-        if (haystack.length() < needle.length()) return -1;
+        if (needle.length() == 0) {
+            return 0;
+        }
+        if (haystack.length() < needle.length()) {
+            return -1;
+        }
 
         int limit = haystack.length() - needle.length();
 

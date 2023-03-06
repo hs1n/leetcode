@@ -3,10 +3,10 @@ package leetcode.easy;
 import java.util.Arrays;
 
 /**
+ * @author hsin
  * @see <a href='https://leetcode.com/problems/roman-to-integer/'>13. Roman to Integer</a>
  */
 public class LongestCommonPrefix {
-
 
     public String longestCommonPrefix(String[] strs) {
         int n = strs.length;

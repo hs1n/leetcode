@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 /**
+ * @author hsin
  * @see <a href='https://leetcode.com/problems/last-stone-weight/'>1046. Last Stone Weight</a>
  */
 public class LastStoneWeight {
@@ -22,6 +23,6 @@ public class LastStoneWeight {
             // If x == y, both stones are destroyed
         }
 
-        return (pq.size() == 0) ? 0 : pq.poll();
+        return (pq.isEmpty()) ? 0 : pq.poll();
     }
 }

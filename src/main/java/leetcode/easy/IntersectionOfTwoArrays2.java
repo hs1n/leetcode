@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/">350. Intersection of Two Arrays II</a>
  */
 public class IntersectionOfTwoArrays2 {
@@ -17,7 +18,8 @@ public class IntersectionOfTwoArrays2 {
      * @return an array of their intersection
      */
     public int[] intersect(int[] nums1, int[] nums2) {
-        int[] larger, smaller;
+        int[] larger;
+        int[] smaller;
         Arrays.sort(nums1);
         Arrays.sort(nums2);
         if (nums1.length > nums2.length) {

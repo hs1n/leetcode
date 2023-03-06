@@ -3,9 +3,10 @@ package leetcode.easy;
 import leetcode.util.ListNode;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/merge-two-sorted-lists/">21. Merge Two Sorted Lists</a>
  */
-class MergeTwoSortedLists {
+public class MergeTwoSortedLists {
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {

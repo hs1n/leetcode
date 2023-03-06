@@ -2,6 +2,7 @@ package leetcode.easy;
 
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/reverse-string/">344. Reverse String</a>
  */
 
@@ -10,7 +11,8 @@ public class ReverseWordsInAString3 {
     public String reverseWordsByPrimitiveDataType(String s) {
         char[] words = s.toCharArray();
 
-        int start = 0, end = s.length() - 1;
+        int start = 0;
+        int end = s.length() - 1;
         int wordStart = 0;
         while (start < end) {
             // words that tailing ' '
@@ -46,7 +48,8 @@ public class ReverseWordsInAString3 {
 
         for (String word : words) {
             char[] wordArray = word.toCharArray();
-            int start = 0, mid = wordArray.length - 1;
+            int start = 0;
+            int mid = wordArray.length - 1;
             while (start < mid) {
                 // swap wordArray[start] and wordArray[end]
                 wordArray[start] ^= wordArray[mid];
@@ -56,7 +59,9 @@ public class ReverseWordsInAString3 {
                 mid--;
             }
             sb.append(wordArray);
-            if (end < words.length - 1) sb.append(' ');
+            if (end < words.length - 1) {
+                sb.append(' ');
+            }
             end++;
         }
 

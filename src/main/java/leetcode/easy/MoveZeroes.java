@@ -1,8 +1,7 @@
 package leetcode.easy;
 
-import java.util.Arrays;
-
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/move-zeroes/">283. Move Zeroes</a>
  */
 public class MoveZeroes {
@@ -10,8 +9,12 @@ public class MoveZeroes {
         int pointer = 0;
 
         for (int n : nums) {
-            if (n != 0) nums[pointer++] = n;
+            if (n != 0) {
+                nums[pointer++] = n;
+            }
         }
-        while (pointer < nums.length) nums[pointer++] = 0;
+        while (pointer < nums.length) {
+            nums[pointer++] = 0;
+        }
     }
 }

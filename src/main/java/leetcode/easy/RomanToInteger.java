@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * @author hsin
  * @see <a href='https://leetcode.com/problems/roman-to-integer/'>13. Roman to Integer</a>
  */
 public class RomanToInteger {

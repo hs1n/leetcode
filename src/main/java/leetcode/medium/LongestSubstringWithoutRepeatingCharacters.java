@@ -1,8 +1,11 @@
 package leetcode.medium;
 
-import java.nio.charset.StandardCharsets;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
+/**
+ * @author hsin
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();

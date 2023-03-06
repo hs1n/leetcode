@@ -1,6 +1,7 @@
 package leetcode.medium;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/rotate-array/">189. Rotate Array</a>
  */
 public class RotateArray {

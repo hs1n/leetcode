@@ -1,6 +1,7 @@
 package leetcode.easy;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/remove-element/">27. Remove Element</a>
  */
 public class RemoveElement {

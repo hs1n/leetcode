@@ -3,6 +3,7 @@ package leetcode.medium;
 import leetcode.util.ListNode;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/add-two-numbers/">2. Add Two Numbers</a>
  */
 public class AddTwoNumbers {
@@ -10,7 +11,7 @@ public class AddTwoNumbers {
         ListNode result = new ListNode(0);
         ListNode cursor = result;
         int overflow = 0;
-        while (l1 != null | l2 != null | overflow > 0) {
+        while (l1 != null || l2 != null || overflow > 0) {
             int sum = 0;
             if (l1 != null) {
                 sum += l1.val;

@@ -6,6 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/contains-duplicate/">217. Contains Duplicate</a>
  */
 
@@ -13,7 +14,7 @@ public class ContainsDuplicate {
 
     // ~ 40 ms
     public boolean containsDuplicateSlow(int[] nums) {
-        return !(Arrays.stream(nums).boxed().collect(Collectors.toSet()).size() == nums.length);
+        return (Arrays.stream(nums).boxed().collect(Collectors.toSet()).size() != nums.length);
     }
 
     // ~ 4 ms

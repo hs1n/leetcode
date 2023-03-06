@@ -1,6 +1,7 @@
 package leetcode.easy;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/palindrome-number/">9. Palindrome Number</a>
  */
 public class PalindromeNumber {

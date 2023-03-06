@@ -3,6 +3,7 @@ package leetcode.easy;
 import java.util.HashMap;
 
 /**
+ * @author hsin
  * @see <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
  */
 public class TwoSum {
